@@ -1,1 +1,24 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Machine Readable Datasheets | EdgeAI</title><meta name="description" content="The Machine Readable Datasheet specification structures firmware-relevant hardware facts."><link rel="canonical" href="https://telespial.github.io/mrd.html"></head><body><nav><a href="index.html">Home</a></nav><main><h1>Machine Readable Datasheets</h1><p>MRD captures firmware-relevant device information such as pins, registers, interfaces, constraints, and errata in structured data. It complements vendor documentation rather than replacing it.</p><p><a href="https://github.com/telespial/Machine-Readable-Datasheets-Specs">Specification source</a></p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Machine Readable Datasheets | EdgeAI</title>
+  <meta name="description" content="MRD structures firmware-relevant hardware facts for embedded tools, reviewers, and EdgeAI workflows.">
+  <link rel="canonical" href="https://telespial.github.io/mrd.html">
+</head>
+<body>
+  <nav><a href="index.html">Home</a> · <a href="embeddedx.html">EmbeddedX</a> · <a href="eil.html">EIL</a></nav>
+  <main>
+    <h1>Machine Readable Datasheets</h1>
+    <p>A Machine Readable Datasheet (MRD) represents firmware-relevant hardware information in structured data that software tools and AI coding systems can consume.</p>
+    <h2>What it captures</h2>
+    <p>The specification covers device identity and revisions, packages and pins, pin multiplexing, registers and fields, peripheral blocks, clocks, resets, interrupts, DMA, interfaces, constraints, conflicts, errata, and source traceability. The repository includes a schema configuration and an example MRD document.</p>
+    <h2>Practical use</h2>
+    <p>An MRD can provide the hardware facts needed before selecting pins, configuring a peripheral, or checking a model target. It does not replace a vendor datasheet or prove that a board is wired a particular way; board connectivity belongs in the related connectivity specification.</p>
+    <p><a href="https://github.com/telespial/Machine-Readable-Datasheets-Specs/blob/main/examples/example.mrd.json">Open the example MRD</a> · <a href="https://github.com/telespial/Machine-Readable-Datasheets-Specs/blob/main/docs/overview.md">Read the overview</a> · <a href="https://github.com/telespial/Machine-Readable-Datasheets-Specs">Browse the source repository</a></p>
+    <h2>Related work</h2>
+    <p><a href="embeddedx.html">EmbeddedX</a> provides the umbrella specification family; <a href="eil.html">EIL</a> describes bounded runtime intelligence; <a href="baby-model-zoo.html">Baby Model Zoo</a> shows model projects that depend on explicit hardware and deployment facts.</p>
+  </main>
+</body>
+</html>

@@ -1,1 +1,30 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NXP EdgeAI Demos | EdgeAI</title><meta name="description" content="NXP EdgeAI demonstrations covering sensing, anomaly monitoring, adaptive control, and display projects."><link rel="canonical" href="https://telespial.github.io/nxp-demos.html"></head><body><nav><a href="index.html">Home</a></nav><main><h1>NXP EdgeAI Demos</h1><p>The catalog contains FRDM-MCXN947 demonstrations for ToF spool monitoring, CGM research, EV charger anomaly monitoring, package transport, Smart Pong, and a sensor/display sphere. Each child README and status file remains authoritative for setup and readiness.</p><p><a href="https://github.com/telespial/NXP-EdgeAI-Demos">Demo source</a></p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NXP EdgeAI Demos | EdgeAI</title>
+  <meta name="description" content="NXP FRDM-MCXN947 EdgeAI demonstrations for sensing, anomaly monitoring, adaptive control, and display workflows.">
+  <link rel="canonical" href="https://telespial.github.io/nxp-demos.html">
+</head>
+<body>
+  <nav><a href="index.html">Home</a> · <a href="baby-model-zoo.html">Baby Model Zoo</a> · <a href="eil.html">EIL</a></nav>
+  <main>
+    <h1>NXP EdgeAI Demos</h1>
+    <p>This catalog contains practical demonstrations for the NXP FRDM-MCXN947 platform. Each child project keeps its own setup, status, and limitations as the authoritative record.</p>
+    <img src="https://github.com/user-attachments/assets/34ee3355-54f3-4a81-9334-883287351b81" alt="NXP ToF spool monitor demonstration">
+    <h2>Examples</h2>
+    <ul>
+      <li><a href="https://github.com/telespial/NXP-EdgeAI-Demos/tree/main/3d-printer-spool-size-tof">3D printer spool size ToF</a> uses a TMF8828 8×8 ToF sensor and documents FULL, MEDIUM, LOW, and EMPTY display states.</li>
+      <li><a href="https://github.com/telespial/NXP-EdgeAI-Demos/tree/main/ev-charger-anomaly">EV charger anomaly</a> documents a 20 Hz replay-oriented anomaly demonstration with explicit non-production safety scope.</li>
+      <li><a href="https://github.com/telespial/NXP-EdgeAI-Demos/tree/main/package-transport-adaptive-reasoning">Package transport</a> records adaptive anomaly scores, warning/fault transitions, reason codes, and replay evidence.</li>
+      <li><a href="https://github.com/telespial/NXP-EdgeAI-Demos/tree/main/smart-pong">Smart Pong</a> compares human, fixed algorithm, and adaptive EdgeAI control modes on the same display system.</li>
+      <li><a href="https://github.com/telespial/NXP-EdgeAI-Demos/tree/main/cgm-insulin-pump">CGM insulin pump</a> is a research/demo platform and is not clinical software.</li>
+      <li><a href="https://github.com/telespial/NXP-EdgeAI-Demos/tree/main/sphere">Sphere</a> combines FRDM-MCXN947, LCD-PAR-S035, and FXLS8974CF accelerometer input in a graphics sandbox.</li>
+    </ul>
+    <h2>Setup and boundaries</h2>
+    <p>Start with the selected child README and `STATUS.md`; build and board prerequisites differ by project. These demonstrations are not interchangeable firmware packages and no automatic flashing is implied.</p>
+    <p><a href="https://github.com/telespial/NXP-EdgeAI-Demos">Browse the source repository</a> · See <a href="mrd.html">MRD</a> for structured hardware facts and <a href="eil.html">EIL</a> for bounded runtime integration.</p>
+  </main>
+</body>
+</html>
